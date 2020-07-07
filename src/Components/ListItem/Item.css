@@ -1,0 +1,53 @@
+#main-wrapper-my-tickets{
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+#main-wrapper-my-tickets .box-shadow{
+    box-shadow: 1px 1px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 22px 0px;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.card-left{
+    padding: 20px 10px !important;
+}
+
+
+#main-wrapper-my-tickets #details-heading-inner span{
+    font-size: 13px;
+    color: #a5a9af;
+}
+
+/*
+===============================
+        Medias
+===============================
+*/
+
+@media screen and (max-width: 767px){
+
+    .details-heading #details-heading-inner{
+        display: none;
+    }
+
+    .card-left{
+        padding: 30px 15px 10px 15px !important;
+    }
+
+    .card-right{
+        padding: 10px 15px 15px 15px !important;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    
+    #details-heading-inner .assign-tag{
+        margin-left: -5px !important;
+    }    
+  
+}

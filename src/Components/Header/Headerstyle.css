@@ -1,0 +1,381 @@
+.header{
+	height: 12vh;
+}
+
+.top-input{
+	border-radius: 50px;
+}
+
+
+
+.shadow{
+	border: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+	0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shad{
+	border: 10px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 
+	0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.navColor .hamburger{
+	color:white !important;
+}
+
+/*******************BUTTON OUTLINE *****************/
+.noOutline{
+	outline:none !important;
+	outline-style: none !important;
+	border: none !important;
+	
+}
+
+/********************************************/
+
+/*****************HEADER LOGO*****************/
+
+.headerLogo{
+	color:white;
+	transform: rotate(-30deg);
+	text-align: center;
+	/*padding-top: 10px; */
+}
+.ticketCreation{
+	color:white;
+	font-size:13px;
+	text-decoration: none !important;
+	text-align: right;
+}
+.LinkLogo:hover{
+	text-decoration: none !important;
+}
+
+.LinkLogo{
+	text-decoration: none;
+	text-align: center;
+}
+.twoCirclesLogo{
+	z-index:10;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding:40px 7px 30px 7px;
+	text-align: center;
+	border-radius:50%;
+	background:#E9B837;
+	height:90px;	width: 90px;
+	position: absolute;
+	top:130px;
+	left:70%;
+}
+.smallCircleLogo{
+	z-index: 1;
+	border-radius:50%;
+	background:#20CF36;
+	position:absolute;
+	padding: 20px;
+	top:185px;
+	left:74%;
+}
+
+
+.circle-container {
+	width:80px; height:80px;
+	position: absolute;
+	left:64%; top:52%;
+	text-align: center;
+
+}
+.circle-container img{;
+	width:100%; height:100%;
+}
+.circle-container p{
+	color:white;
+ 	position: absolute;
+ 	left: 5px;
+ 	top:35px;
+	font-size: 11px;
+}
+.circle-container .headerLog{
+	color:white; 
+	left:25px;
+	font-size: 25px;
+ 	top:10px;
+	transform: rotate(-30deg);
+	position: absolute;
+}
+.dec:hover{
+	text-decoration: none;
+}
+
+/**************NAV BAR ACTIVE CLASS ***********************/
+.mainnav{
+  color:black !important;
+  text-decoration: none;
+  color: #181818;
+  border-bottom: 1px solid transparent;
+}
+.navactive{
+	color:black !important;
+	border-bottom: 1px solid #29b6f6;
+  	transition: border-bottom .5s ease-in-out;
+}
+.mainnav:hover{
+	color:black !important;
+	border-bottom: 1px solid #29b6f6;
+	/*background: rgba(255,255,255,0.4);*/
+	 transform: translateY(-2px);
+}
+#nav-dropdown{
+    color: lightgray;
+}
+.navColor{
+		background: transparent;
+		z-index:99;
+	}
+/***************HEADER SEARCH BAR*******************/
+.searchHead{
+	margin: 22px;
+	cursor: pointer;
+}
+.cursorPoint{
+	cursor: pointer;
+}
+/***********************FONTS ******************************/
+.TicketXtraFont{
+	color:#374557;
+	font-size: 15px;
+}
+.TicketSmallFont{
+	 color:#374557;
+}
+.TicketBigFont{
+  color:#374557;
+  font-weight: bold;
+}
+.TicketFont{
+   color:#0d507b
+ }
+ .checkFont{
+ 	color:gray;
+ }
+  .QuickFont{
+  color:#4C545C;
+  /*color:#374557;*/
+}
+
+.color{
+	color:white; 
+}
+.HeaderBigFont{
+	font-family: "Helvetica";
+	
+}
+ /******************************MODAL IMAGE************************************/
+ #impimg{
+ width: 330px;
+ position: absolute;
+ right: 30px; top:-15px;
+ transform: rotateX(-10deg);
+ background: transparent;
+ overflow: hidden;
+ /*padding-top: 10px !important;*/
+}
+
+
+
+
+
+/*******************HEADER CONTENT ******************/
+.searchinput, .svgback{
+	position: relative;
+}
+
+.searchInp{
+	margin:23px;
+	width: 100%;
+	float: right;
+	margin-left: 300px;
+	border-radius: 30px;
+}
+.mainInp{
+	border-radius: 30px;
+	padding: 5px;
+}
+.mainInpIcon{
+	position: absolute;
+	top:25%; left:50%;
+}
+.searchicon{
+	position: absolute;
+	top:25%; right:-80%;
+}
+
+.alerttext{
+/*	min-height:50px;*/
+	background:#194566;
+	color:white;
+	text-align:center;
+	overflow: hidden;
+	display: block;
+	cursor: pointer;
+}
+.det{
+	position: relative;
+	text-align: center;
+}
+.detBotPara{
+	position: absolute;
+	bottom: 0px;
+}
+.helptext{
+	position: absolute;
+	top:25%; left:2%;
+}
+.ticket{
+	padding-right: 0
+}
+.row .searchpad{
+	padding-left: 0;
+} 
+.row .searchpad label input.searchinput{
+	background: rgba(255,255,255,0.4);
+	min-height:36px;
+	padding-left:60px;
+	min-width:500px;
+	/*color:blue !important;*/
+	border-radius:0 25px 25px 0;
+	border:none;
+	outline:none
+}
+.searchInp{
+	position: relative;
+}
+.row .searchpad label input::placeholder{
+	color: #195D8C !important;
+}
+
+/*@media screen and (min-width: 1960px) {
+	.svgback{
+  	background: url("../assets/main-backimg.jpg") top no-repeat;
+  	height: 450px;
+  }
+}*/
+@media screen and (max-width: 1200px) {
+	.searchicon{
+		 right:-5%;
+	}
+	.row .searchpad label input.searchinput{
+		min-width:430px;
+		padding-left:40px;
+	}
+	
+}
+@media screen and (max-width: 1100px) {
+	.searchicon{
+		 right:0;
+	}
+
+	.row .searchpad label input.searchinput{
+		min-width:430px;
+		padding-left:40px;
+	}
+	
+}
+@media screen and (max-width: 990px) {
+	.searchicon{
+		 right:-30%;
+	}
+	.navColor{
+		background: linear-gradient(to right,#1C4364, #195C8C);
+		z-index:99;
+	}
+	
+	
+}
+@media screen and (max-width: 800px) {
+	.searchicon{
+		 right:0;
+	}
+	.row .searchpad label input.searchinput{
+		min-width:330px;
+		padding-left:70px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.searchicon{
+		 right:-30%;
+	}
+	.quickmarg{
+	margin-top: 20px;
+	}
+	.searchHead{
+	right:5%; 
+	}
+}
+@media screen and (max-width: 500px) {
+	.helptext{
+		top:30%; 
+	}
+	.row .searchpad label input.searchinput{
+		min-width:300px;
+		padding-left:70px;
+	}
+	.searchHead{
+	right:13%; 
+	}
+	.searchicon{
+	 right:-33%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.searchicon{
+	 right:-43%;
+	}
+}
+@media screen and (max-width: 450px) {
+	.searchicon{
+	 	right:-50%;
+	}
+}
+@media screen and (max-width: 400px) {
+	.helptext{
+
+		top:30%; 
+	}
+	.row .searchpad label input.searchinput{
+		min-width:300px;
+		padding-left:80px;
+	}
+	.searchicon{
+	 right:-80%;
+	}
+}
+@media screen and (max-width: 330px) {
+	.helptext{
+
+		top:30%;
+	}
+	.row .searchpad label input.searchinput{
+		min-width:270px;
+		padding-left:80px;
+	}
+	.searchicon{
+	 right:-100%;
+	}
+}
+
+
+.paraslide{
+	animation: moveLeft 10s linear infinite;
+}
+
+@keyframes moveLeft{
+	0%{
+		transform: translateX(0%)
+	}
+	100%{
+		transform: translateX(-100%)
+	}
+}
+

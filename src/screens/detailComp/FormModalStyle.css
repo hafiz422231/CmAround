@@ -1,0 +1,54 @@
+.det{
+	position: relative;
+
+}
+
+.detBotPara{
+	position: absolute;
+	bottom: 0px;
+}
+.formInp{
+	border-radius:10px;
+	padding:3px 20px;
+	font-size:15px;
+	width:100%;
+}
+.floatDiv{
+	float:right;
+}
+
+.cancelbtn{
+	width:100%;
+	border-radius:15px;
+	padding:5px; 
+	background:red;
+	color:white
+}
+.fontMod{
+	font-weight: 500;
+}
+.submitbtn{
+	width:100%;
+	border-radius:15px;
+	padding:5px; 
+	background:#23577F;
+	color:white
+}
+.link1{
+	color:green;
+	text-decoration:underline;
+}
+
+.link2{
+	color:red;
+	text-decoration:underline;
+}
+.formHead{
+	background-size:cover;
+	/*background:#F8F9FB;*/
+	padding:0px 10px;
+}
+.formBody{
+	padding:26px 0px 16px 35px;
+	height:400px;
+}
